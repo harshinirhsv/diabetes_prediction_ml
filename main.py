@@ -10,7 +10,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 
 
 # dataset from my Github
-df=pd.read_csv("https://raw.githubusercontent.com/gopiashokan/dataset/main/diabetes_prediction_dataset.csv")
+df=pd.read_csv("diabetes_prediction_dataset.csv")
 
 
 # Preprocessing using Ordinal Encoder
